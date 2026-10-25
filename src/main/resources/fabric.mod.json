@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "baritone_gui",
+  "version": "${version}",
+  "name": "Baritone GUI Helper",
+  "description": "Графическое меню Baritone от Evelina",
+  "authors": ["Evelina"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.evelina.baritonegui.BaritoneGuiClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21"
+  }
+}
